@@ -1,6 +1,6 @@
 # Overview
 
-This repo contains working example files to help connect Astro to HCP Vault and Vault Enterprise, including supporting Vault namespaces and a helper script to generate the required `.env` file for local development. This is supplementary to Astronomer guide is available here:
+This repo contains working example files to help connect Astro to HCP Vault and Vault Enterprise, including supporting Vault namespaces and a helper script to generate the required `.env` file for local development. This supplements the Astronomer guide here:
 
 https://docs.astronomer.io/astro/secrets-backend?tab=hashicorp#setup
 
