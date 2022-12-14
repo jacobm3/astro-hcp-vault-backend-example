@@ -46,7 +46,8 @@ vault secrets enable -path=secret -version=2 kv
 vault kv put secret/variables/example-variable value="success"
 vault kv put secret/variables/other-variable value="some-secret"
 
-vault kv put secret/connections/<your-connection-id> \   conn_uri=<connection-type>://<connection-login>:<connection-password>@<connection-host>:5432
+vault kv put secret/connections/<your-connection-id> \   
+  conn_uri=<connection-type>://<connection-login>:<connection-password>@<connection-host>:5432
 ```
 
 ## Setup .env file
